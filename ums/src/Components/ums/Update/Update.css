@@ -1,0 +1,68 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+  }
+.updatebody{
+  background-image: url(https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150038835.jpg?t=st=1731643391~exp=1731646991~hmac=88b37360384c4b476fad6a99137d159739cec7cdf6be353602997e15bb3296f2&w=996);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+  .updateformpage{
+    background-color: rgba(154, 86, 49, 0.463);
+    width: 65vh;
+    height: 70vh;
+    border-radius: 15px;
+    border: 7px double rgba(255, 255, 255, 0.334);
+    backdrop-filter: blur(40px);
+  }
+  .sub{
+    position: relative;
+    width: 70%;
+    height: 45px;
+    background: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid  #95D2B3;
+    overflow: hidden;
+    z-index: 1;
+    color:  #95D2B3;
+  }
+  
+  .Details{
+    color: #f3f6f5;
+  }
+  .sub::before{
+    content: "";
+    position: absolute;
+    height: 300%;
+    width: 100%;
+    background:linear-gradient(#25252b,#ff2770,#25252b,#ff2770);
+    top: -100%;
+    left: 0;
+    z-index:-1 ;
+    transition: .5s;
+  }
+  .subbttnupdate{
+    background-color: rgba(0, 0, 0, 0.342);
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+  .sub:hover:before{
+    top: 0;
+  }
+  .box{
+    background: transparent;
+    border-top:  #95D2B3;
+    border-left: none;
+    border-right: none;
+    color: #95D2B3;
+  }
+  
+  
+
+  .update{
+    height: 100vh;
+  }

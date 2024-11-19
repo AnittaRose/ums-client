@@ -1,0 +1,138 @@
+/* .body1{
+    background-color: #BB8493;
+    
+ } */
+ .user-icon{
+    width: 30px;
+
+}
+.hi{
+  background-image: url(https://img.freepik.com/free-photo/work-team-digital-art_23-2151492130.jpg?t=st=1731603696~exp=1731607296~hmac=e99360957859b341ba9b025e58f425f582f73e23d42939a3447a47987a88e221&w=1060);
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+}
+/* .main12{
+  background-color:#BB8493;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logoo{
+    width: 120px;
+    height: 50px;
+}
+.form{
+    background-color:  #55AD9B;
+    width: 50%;
+    height: 85vh;
+    border-radius: 10px;
+    border: 5px double black;
+   
+}
+.add{
+    /* color: #55AD9B; */
+}
+
+.navbar{
+    background-color: white;
+    /* opacity: 0.5; */
+}
+.bttn1{
+   
+}
+/* .card{
+    width: 95vh;
+    height: 70vh;
+} */
+.userinput{
+background-color: #383838;
+ border: 1ex solid none;
+ border-top-width: 1.7em;
+ margin: 0;
+ padding: 0;
+ color: #383838;
+ word-wrap: break-word;
+ outline: 7px solid #383838;
+ height: 30px;
+ font-size: 17px;
+ text-align: center;
+ transition: all 1s;
+ max-width: 190px;
+ font-weight: bold;
+ font-family: 'Courier New', Courier, monospace;
+ }
+ .userinput:hover{
+  border-top-width: 0.4em;
+  background-color: #f1e8e8;
+ }
+ .userinput:focus{
+  border-top-width: 0.4em;
+ background-color: #f1e8e8;
+ }
+.card {
+    /* background-color: #55AD9B; */
+    box-sizing: border-box;
+    width: 550px;
+    height: 450px;
+    background-color: #55AD9B;
+    /* padding-left: 20%; */
+    /* border: 1px solid white; */
+    /* box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22); */
+    /* backdrop-filter: blur(6px); */
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    /* color: #55AD9B; */
+    
+  }
+  
+  .card:hover {
+    border: 1px solid #55AD9B;
+    /* transform: scale(1.05); */
+  }
+  
+  .card:active {
+    /* transform: scale(0.95) rotateZ(1.7deg); */
+  }
+  /* .input{
+    border-top: #55AD9B;
+    border-left: none;
+    border-right: none;
+    color: #55AD9B;
+  } */
+  .select{
+    border-top: #55AD9B;
+    border-left: none;
+    border-right: none;
+  }
+  .addform{
+    background-color:rgb(183,196,190);
+    opacity: 0.6;
+    padding: 20px;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 18px;
+    border: 1px solid white;
+  }
+  .addemployee{
+    color: white;
+  }
+  .bttn1{
+    border-radius: 8px;
+    background-color: white;
+    border: white;
+    padding: 9px;
+    color:rgb(144,79,8) ;
+  }
